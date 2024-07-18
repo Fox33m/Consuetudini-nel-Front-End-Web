@@ -1,6 +1,6 @@
 Gli argomenti su cui la tesi si focalizzerà, premesso il quadro generale sopra citato, saranno:
 
-•	Consuetudini, cosa sono
+•	Consuetudini, cosa sono /n
 •	Sentieri familiari, e azioni logiche riapplicabili
 •	CSS e HTML come fondamenta di internet
 •	Esistenza e agevolazioni per utenti con possibili disabilità
