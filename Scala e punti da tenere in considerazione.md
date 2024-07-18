@@ -30,4 +30,6 @@ funzionamento delle pagine
 
 Questi esempi di impaginazione sono esempi di strutture di pagine web consuete
 
+![Screenshot 2024-07-18 113055](https://github.com/user-attachments/assets/56c2fe48-f1a6-4090-ac4a-7d8e5145bcbc)
 
+Layout del sito https://unipi.it
