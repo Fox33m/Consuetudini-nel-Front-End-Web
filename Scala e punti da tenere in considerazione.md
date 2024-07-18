@@ -1,29 +1,19 @@
 Gli argomenti su cui la tesi si focalizzerà, premesso il quadro generale sopra citato, saranno:
 
-
-•	Consuetudini, cosa sono
-
-•	Sentieri familiari, e azioni logiche riapplicabili
-
-•	CSS e HTML come fondamenta di internet
-
-•	Esistenza e agevolazioni per utenti con possibili disabilità
-
-•	Creazione di pagine statiche e dinamiche e quando è più corretto applicarle
-
-•	Struttura di un sito internet tipo
-
+1)	Consuetudini, cosa sono
+2)	Sentieri familiari, e azioni logiche riapplicabili
+3)	CSS e HTML come fondamenta di internet
+4)	Esistenza e agevolazioni per utenti con possibili disabilità
+5)	Creazione di pagine statiche e dinamiche e quando è più corretto applicarle
+6)	Struttura di un sito internet tipo
 
 Consuetudine: modo costante di procedere o di operare; abitudine, costume, usanza, tradizione.
 Esempi di consuetudini, su campo di pagine web, sono:
 
-•	Un collegamento alla pagina principale premendo il logo del sito
-
-•	Il posizionamento del logo del sito in alto a sinistra dello schermo/pagina
-
-•	Collegamenti ipertestuali su testo sottolineato
-
-•	Cambio di icona del cursore del mouse quando si passa su un elemento interattivo
+1) Un collegamento alla pagina principale premendo il logo del sito
+2) Il posizionamento del logo del sito in alto a sinistra dello schermo/pagina
+3) Collegamenti ipertestuali su testo sottolineato
+4) Cambio di icona del cursore del mouse quando si passa su un elemento interattivo
 
 ![layout web](https://github.com/user-attachments/assets/93d0e04e-1801-43ab-bb54-b6832281ed85)
 
