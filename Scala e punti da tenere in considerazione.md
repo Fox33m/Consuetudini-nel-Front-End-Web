@@ -15,9 +15,9 @@ Esempi di consuetudini, su campo di pagine web, sono:
 3) Collegamenti ipertestuali su testo sottolineato
 4) Cambio di icona del cursore del mouse quando si passa su un elemento interattivo
 
-![layout web](https://github.com/user-attachments/assets/93d0e04e-1801-43ab-bb54-b6832281ed85)
+![layout web](https://github.com/user-attachments/assets/93d0e04e-1801-43ab-bb54-b6832281ed85) ![layout web 2](https://github.com/user-attachments/assets/6256f6a3-e355-4217-a380-5a48c3c64c49)
 
-![layout web 2](https://github.com/user-attachments/assets/6256f6a3-e355-4217-a380-5a48c3c64c49)
+
 
 
 Avanzamento progetto:
