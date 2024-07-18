@@ -31,4 +31,3 @@ funzionamento delle pagine
 Questi esempi di impaginazione sono esempi di strutture di pagine web consuete
 
 
-![Screenshot 2024-07-18 113055](https://github.com/user-attachments/assets/c0cfb91f-bd9a-4691-8009-3796c3c6f48a)
