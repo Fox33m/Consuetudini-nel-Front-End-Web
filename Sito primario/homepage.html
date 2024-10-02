@@ -19,9 +19,27 @@
     
     <!-- Intestazione della pagina -->
     <header>
-      
-        <h1>Intestazione</h1>
-      
+        <nav class="navbar">
+            
+            <ul class="menu">
+                
+                <li><a href="index.html">Home</a></li>
+                
+                <li class="dropdown">
+                    
+                    <a href="#" class="dropbtn" onclick="toggleDropdown()">Menù</a>
+                    
+                    <ul class="dropdown-content" id="dropdownMenu">
+                        
+                        <li><a href="web-design.html">Web Design</a></li>
+                        <li><a href="seo.html">SEO</a></li>
+                        <li><a href="marketing.html">Marketing</a></li>
+                        
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    
     </header>
 
     <!-- Contenuto principale -->
