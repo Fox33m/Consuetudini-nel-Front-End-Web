@@ -95,11 +95,16 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-      
-        <!-- Link per pagina footer -->
-      
-    </footer>
+    <div id="footer-placeholder"></div>
+    <script>
+        fetch('Footer/footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer-placeholder').innerHTML = data;
+            })
+            .catch(error => console.error('Errore nel caricamento del footer:', error));
+    </script>
+
 
     <!-- Collegamento al file di script JavaScript -->
     <script src="script.js"></script>
