@@ -44,3 +44,33 @@
 .dropdown-content a:hover {
   background-color: #575757;
 }
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.site-footer .footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.site-footer .footer-nav a:hover {
+  text-decoration: underline;
+}
+
+.site-footer .footer-info {
+  margin-top: 15px;
+}
+
+.site-footer .footer-info a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.site-footer .footer-info a:hover {
+  text-decoration: underline;
+}
