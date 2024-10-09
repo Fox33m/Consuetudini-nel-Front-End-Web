@@ -1,113 +1,52 @@
 <!DOCTYPE html>
+
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titolo della Pagina</title>
-  
-    <!-- Collegamento al foglio di stile CSS -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-  
-<body>
-    <!-- Navbar -->
-
-    <div id="navbar"></div>
+    <head>
+        <meta charset="UTF-8">
+        <title>Homepage</title>
+        <link rel="stylesheet" href="stile.css">
+        <script src="script.js" defer></script>
+    </head>
     
-    <script>
+    <body>
         
-        fetch('Navbar/navbar.html')
-            .then(response => response.text())
-            .then(data => {document.getElementById('navbar').innerHTML = data;})
-            .catch(error => console.error('Errore nel caricamento della navbar:', error));
+        <!-- Include header -->
+        <div id="header">
+            <object type="text/html" data="header/header.html"></object>
+        </div>
         
-    </script>
-    
-    <!-- Intestazione della pagina -->
-    <header>
-        <nav class="tenda">
+        <div class="container">
             
-            <ul class="menu">
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <div class="box">
+                    <a href="firstPage.html">Blog</a>
+                </div>
                 
-                <li><a href="index.html">Home</a></li>
+                <div class="box">
+                    <a href="secondPage.html">Attività</a>
+                </div>
                 
-                <li class="dropdown">
-                    
-                    <a href="#" class="dropbtn" onclick="toggleDropdown()">Menù</a>
-                    
-                    <ul class="dropdown-content" id="dropdownMenu">
-                        
-                        <li><a href="firstPage.html">Blog</a></li>
-                        <li><a href="secondPage.html">Attività</a></li>
-                        <li><a href="thirdPage.html">Chi siamo</a></li>
-                        
-                    </ul>
-                </li>
-            </ul>
-        </nav>
+                <div class="box">
+                    <a href="thirdPage.html">Chi siamo</a>
+                </div>
+            
+            </aside>
+            
+            <!-- Contenuto principale -->
+            <main class="content">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </main>
+        </div>
+        
+        <!-- Include footer -->
+        <div id="footer">
+            <object type="text/html" data="footer/footer.html"></object>
+        </div>
+
+    </body>
     
-    </header>
-
-    <!-- Contenuto principale -->
-    <main>
-      
-        <h2>Titolo</h2>
-      
-        <div><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-            Nulla placerat, nulla a sodales tincidunt, lorem ex tincidunt dui, sit amet tristique enim nulla non mauris. 
-            Maecenas quis risus elementum, molestie est non, dictum libero. Morbi id dolor tortor. Ut a quam rhoncus nisl varius commodo. 
-            Maecenas varius eleifend justo, nec porta quam faucibus vitae. Nulla pretium sodales ligula, sit amet sagittis mauris euismod vitae. 
-            Mauris tincidunt elit venenatis odio faucibus fringilla. Cras mattis rhoncus tellus maximus facilisis. Sed in elementum nisi. 
-            Sed quis sollicitudin magna. Quisque consectetur suscipit diam, sit amet dapibus dui blandit eu. 
-            Maecenas rhoncus lorem magna, quis rutrum eros feugiat sed.
-            Proin eu mollis quam. Donec vitae faucibus elit, vel porta est. 
-            Praesent tincidunt erat ut pellentesque imperdiet.
-            Curabitur fringilla dictum lacus, non ornare mauris porttitor non.
-
-         <p>Nulla lacinia diam at erat semper euismod. 
-             Donec sollicitudin dapibus justo ac feugiat.
-             Fusce porttitor, eros vel iaculis elementum, erat arcu porta dolor, ac molestie ipsum tellus eget nibh. 
-             Curabitur tempus libero in interdum laoreet. Duis condimentum consequat nisi. Nulla sed eros dui. Suspendisse potenti.
-        </p>
-        <p>Phasellus congue sollicitudin libero vel pharetra. 
-            Nulla scelerisque nunc tortor, at ornare eros interdum ac. 
-            Sed finibus at urna non aliquam. Morbi a diam at mi pharetra ullamcorper eu eu nulla. 
-            Integer sapien turpis, interdum ac mi vel, vestibulum pellentesque eros. Cras auctor metus quis convallis rhoncus. 
-            Nam ornare lectus nec finibus ornare. Proin convallis turpis in urna ornare, eu lobortis sapien convallis.
-        </p>
-        <p>Sed sodales purus eu tortor vehicula fermentum. 
-            In ultrices nibh ullamcorper, molestie odio at, egestas urna. 
-            Aenean hendrerit felis eu mauris ultricies, eu dictum arcu vehicula. 
-            Vestibulum a ex malesuada, convallis nisl vitae, aliquet leo. 
-            Nullam enim augue, vehicula quis commodo nec, volutpat nec neque. 
-            Pellentesque leo nulla, maximus ac nunc id, venenatis ullamcorper elit. Sed id nunc leo.
-            Pellentesque nec est vel lectus gravida rhoncus at ut purus. Etiam a libero eu tellus scelerisque euismod. Suspendisse potenti. 
-            Suspendisse porttitor, odio egestas ornare consectetur, orci libero porta sem, nec pellentesque lorem nulla et purus.
-        </p>
-        <p>Morbi sit amet maximus quam. Nulla nec iaculis magna. 
-            Cras ornare imperdiet dolor et efficitur. Nam varius aliquet efficitur. 
-            Quisque non aliquet enim, vitae varius dui. Cras euismod orci vel purus cursus convallis. 
-            Maecenas ac lobortis erat. Proin lectus lectus, aliquet vel dolor ut, suscipit aliquet metus. 
-            Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        </p></div>
-      
-        <!-- Elementi del contenuto principale -->
-    </main>
-
-    <!-- Footer -->
-    <div id="footer-placeholder"></div>
-    <script>
-        fetch('Footer/footer.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('footer-placeholder').innerHTML = data;
-            })
-            .catch(error => console.error('Errore nel caricamento del footer:', error));
-    </script>
-
-
-    <!-- Collegamento al file di script JavaScript -->
-    <script src="script.js"></script>
-  
-</body>
 </html>
