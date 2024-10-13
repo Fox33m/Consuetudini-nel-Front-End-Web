@@ -78,6 +78,39 @@ a:hover {
   color: #bbdefb;
 }
 
+.barraup {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: #1f1f1f;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+}
+
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 15px;
+}
+
+.navbar a {
+  color: #82b1ff;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #bbdefb;
+}
+
 .site-footer {
   flex-shrink: 0;
   background-color: #1f1f1f;
