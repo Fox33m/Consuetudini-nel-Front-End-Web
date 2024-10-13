@@ -42,6 +42,7 @@ h1, h2, h3 {
 .sidebar .box a {
   text-decoration: none;
   color: #82b1ff;
+  pointer-events: none;
 }
 
 .content {
@@ -131,6 +132,7 @@ object {
   width: auto;
   height: auto;
   max-width: 100%;
+  cursor: pointer;
 }
 
 .navbar ul {
