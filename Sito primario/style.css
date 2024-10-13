@@ -77,3 +77,23 @@ a {
 a:hover {
   color: #bbdefb;
 }
+
+.site-footer {
+  flex-shrink: 0;
+  background-color: #1f1f1f;
+  color: #E0E0E0;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+  position: relative;
+}
+
+.footer-nav a {
+  margin: 0 15px;
+  color: #82b1ff;
+  text-decoration: none;
+}
+
+.footer-nav a:hover {
+  color: #bbdefb;
+}
