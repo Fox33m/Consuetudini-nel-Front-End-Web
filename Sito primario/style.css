@@ -92,11 +92,12 @@ a:hover {
   align-items: center;
   padding: 10px 20px;
   background-color: #1f1f1f;
+  height: 80px;
 }
 
 .logo img {
-  max-width: 150px;
-  height: auto;
+  max-height: 90%;
+  width: auto;
 }
 
 .navbar ul {
