@@ -96,6 +96,10 @@ a:hover {
   color: #bbdefb;
 }
 
+.enfasi {
+  text-decoration: underline;
+}
+
 object {
   display: block;
   width: 100%;
