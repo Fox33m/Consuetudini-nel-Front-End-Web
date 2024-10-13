@@ -86,6 +86,14 @@ a:hover {
   color: #bbdefb;
 }
 
+object {
+  display: block;
+  width: 100%;
+  border: none;
+  height: 100px;
+  overflow: hidden;
+}
+
 .barraup {
   display: flex;
   justify-content: space-between;
