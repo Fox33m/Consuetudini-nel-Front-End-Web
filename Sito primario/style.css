@@ -94,10 +94,12 @@ a {
 
 a:hover {
   color: #bbdefb;
+  cursor: pointer;
 }
 
 .enfasi {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 object {
