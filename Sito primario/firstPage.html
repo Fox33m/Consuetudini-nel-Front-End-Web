@@ -1,36 +1,47 @@
-<!-- Pagina Blog-->
 <!DOCTYPE html>
 <html lang="it">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titolo della Pagina</title>
-  
-    <!-- Collegamento al foglio di stile CSS -->
-    <link rel="stylesheet" href="style.css">
-  </head>
-
-    <div id="navbar"></div>
     
-    <script>
+    <head>
         
-        fetch('Navbar/navbar.html')
-            .then(response => response.text())
-            .then(data => {document.getElementById('navbar').innerHTML = data;})
-            .catch(error => console.error('Errore nel caricamento della navbar:', error));
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
-    </script>
-
+        <title>Blog</title>
+        
+        <link rel="stylesheet" href="css/stile.css">
+        <script src="js/script.js" defer></script>
+        
+    </head>
     
- <!-- Footer -->
-    <footer>
-      
-        <!-- Link per pagina footer -->
-      
-    </footer>
+    <body>
+        
 
-    <!-- Collegamento al file di script JavaScript -->
-    <script src="script.js"></script>
-  
-</body>
+        <div id="header">
+            
+            <object type="text/html" data="header/header.html"></object>
+            
+        </div>
+        
+
+        <main class="content-full">
+            
+            <h1>Blog</h1>
+            
+            <div id="BlogBox">
+               
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum. Cras venenatis euismod malesuada. Nullam vitae fermentum purus, et vehicula mi. Donec auctor, sapien ut commodo vehicula, dui quam bibendum nunc, ac gravida sem metus id nunc.</p>
+                <p>Aliquam erat volutpat. Duis tincidunt dictum risus, ac sollicitudin turpis faucibus et. Sed euismod enim at risus accumsan, ut feugiat ligula vestibulum. Suspendisse potenti.</p>
+            
+            </div>
+            
+        </main>
+        
+        <div id="footer">
+            
+            <object type="text/html" data="footer/footer.html"></object>
+            
+        </div>
+        
+    </body>
+    
 </html>
