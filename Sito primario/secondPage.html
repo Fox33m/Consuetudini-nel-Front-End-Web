@@ -1,36 +1,41 @@
-<!-- Pagina Attività -->
 <!DOCTYPE html>
 <html lang="it">
+    
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Titolo della Pagina</title>
-  
-    <!-- Collegamento al foglio di stile CSS -->
+    
+    <title>Attività</title>
+    
     <link rel="stylesheet" href="style.css">
-  </head>
-
-
-    <div id="navbar"></div>
+    <script src="js/script.js" defer></script>
     
-    <script>
-        
-        fetch('Navbar/navbar.html')
-            .then(response => response.text())
-            .then(data => {document.getElementById('navbar').innerHTML = data;})
-            .catch(error => console.error('Errore nel caricamento della navbar:', error));
-        
-    </script>
-    
- <!-- Footer -->
-    <footer>
-      
-        <!-- Link per pagina footer -->
-      
-    </footer>
+</head>
 
-    <!-- Collegamento al file di script JavaScript -->
-    <script src="script.js"></script>
-  
-</body>
+    <body>
+        <div id="header">
+            <object type="text/html" data="Navbar/navbar.html"></object>
+        </div>
+
+        <main class="content-full">
+            <h1>Attività</h1>
+        
+            <div id="ActivityBox">
+                
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Curabitur pretium tincidunt lacus. Nulla gravida orci a odio, et feugiat augue vestibulum et. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet.</p>
+                <p>Integer in mauris eu nibh euismod gravida. Pellentesque viverra pede ac diam sagittis, mollis libero. Donec vulputate lacus ut metus pharetra, a gravida purus viverra.</p>
+            
+            </div>
+        </main>
+        
+        <div id="footer">
+            
+            <object type="text/html" data="footer/footer.html"></object>
+        
+        </div>
+    
+    </body>
+
 </html>
