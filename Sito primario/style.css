@@ -113,11 +113,11 @@ a:hover {
 .right-sidebar {
   width: 300px;
   padding-left: 20px;
-  background-color: #1f1f1f;
+  background-color: #ffffff;
 }
 
 .right-sidebar .box {
-  background-color: #ffffff;
+  background-color: #1f1f1f;
   padding: 10px;
   margin-top: 20px;
   border-radius: 0px 15px 15px 0px;
