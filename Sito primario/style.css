@@ -18,7 +18,9 @@ body {
 h1, h2, h3 {
   color: #ffffff;
 }
-
+/* Valore indicato in pixel anziché in percentuale
+   questo previene il ridimensionamento degli elementi
+   in risposta a un ridimensionamento dello schermo*/
 .container {
   display: flex;
   padding: 20px;
